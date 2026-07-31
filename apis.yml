@@ -1,8 +1,25 @@
 aid: monte-rosa-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monte-rosa-therapeutics.png
 name: Monte Rosa Therapeutics *
-description: 'Monte Rosa Therapeutics * is a company surfaced as a portfolio company of gv and added to
-  the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Monte Rosa Therapeutics is a clinical-stage biotechnology company pioneering
+  molecular glue degrader (MGD) medicines. It pairs its QuEEN discovery engine — integrating
+  artificial intelligence, machine learning, and structural biology — with proprietary chemistry
+  to design small molecules that selectively degrade disease-causing proteins previously considered
+  undruggable, across oncology and immunology, with collaborations including Novartis and Roche.
+  Surfaced as a portfolio company of GV and added to the API Evangelist network. The company
+  publishes no public developer API, portal, or documentation; this profile captures its web
+  presence and probed domain-security surface.'
 url: https://raw.githubusercontent.com/api-evangelist/monte-rosa-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Molecular Glue Degraders
+- Oncology
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/monte-rosa-therapeutics-domain-security.yml
 - type: Website
-  url: http://monterosatx.com
+  url: https://www.monterosatx.com
+- type: Blog
+  url: https://www.monterosatx.com/news/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
